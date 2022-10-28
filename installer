@@ -1,0 +1,8 @@
+#! /bin/bash
+
+sudo mkdir /bin/bettor/alpha
+
+cp ./bins/ /bin/bettor/alpha
+
+cd /bin/bettor/alpha
+
