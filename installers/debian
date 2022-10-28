@@ -1,0 +1,14 @@
+#! /bin/bash
+
+# Ask if the user wants to install nala (for parallelised downloads)
+sudo apt-get install nala -y
+
+software="yad zenity lynx w3m git cargo cowsay"
+
+# The '$insp' variable will either be 'apt' (or some variant) OR 'nala'
+sudo $insp install $software -y
+
+# Scorecaster
+sudo $insp install xcowsay -y
+
+
